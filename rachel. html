@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Animated HTML Page for Rachel</title>	<style>
+
+		body {
+
+			background-color: #e6ffff;
+
+			font-family: Arial, sans-serif;
+
+			text-align: center;
+
+			margin: 0;
+
+			padding: 0;
+
+			overflow: hidden;
+
+		}
+
+		
+
+		h1 {
+
+			font-size: 5em;
+
+			color: #ff99cc;
+
+			margin-top: 50px;
+
+			animation: pulse 2s infinite;
+
+		}
+
+		
+
+		@keyframes pulse {
+
+			0% {
+
+				transform: scale(1);
+
+			}
+
+			50% {
+
+				transform: scale(1.2);
+
+			}
+
+			100% {
+
+				transform: scale(1);
+
+			}
+
+		}
+
+		
+
+		#heart {
+
+			position: absolute;
+
+			top: 50%;
+
+			left: 50%;
+
+			transform: translate(-50%, -50%);
+
+			animation: heartbeat 1s ease-in-out infinite;
+
+		}
+
+		
+
+		@keyframes heartbeat {
+
+			0% {
+
+				transform: scale(1);
+
+			}
+
+			10% {
+
+				transform: scale(1.1);
+
+			}
+
+			20% {
+
+				transform: scale(1);
+
+			}
+
+			30% {
+
+				transform: scale(1.05);
+
+			}
+
+			40% {
+
+				transform: scale(1);
+
+			}
+
+			50% {
+
+				transform: scale(1.03);
+
+			}
+
+			60% {
+
+				transform: scale(1);
+
+			}
+
+			70% {
+
+				transform: scale(1.02);
+
+			}
+
+			80% {
+
+				transform: scale(1);
+
+			}
+
+			90% {
+
+				transform: scale(1.01);
+
+			}
+
+			100% {
+
+				transform: scale(1);
+
+			}
+
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<h1>Happy Birthday Rachel!</h1>
+
+	<img src="https://cdn.pixabay.com/photo/2017/01/31/18/24/heart-2027092_1280.png" alt="heart" id="heart">
+
+</body>
+
+</html>
